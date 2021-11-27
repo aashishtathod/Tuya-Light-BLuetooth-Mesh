@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    compileSdk 26
+    compileSdk 31
 
     defaultConfig {
         applicationId "com.example.luxtonepracticalapp"
         minSdk 26
-        targetSdk 30
+        targetSdk 31
         versionCode 1
         versionName "1.0"
 
@@ -37,8 +37,7 @@ android {
 
     buildFeatures{
         viewBinding true}
-    compileSdkVersion 26
-    buildToolsVersion '26.0.3'
+   
 }
 
 
