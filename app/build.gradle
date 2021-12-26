@@ -37,6 +37,8 @@ android {
 
     buildFeatures{
         viewBinding true}
+
+
    
 }
 
@@ -53,7 +55,7 @@ dependencies {
     implementation 'com.alibaba:fastjson:1.1.67.android'
     implementation 'com.squareup.okhttp3:okhttp-urlconnection:3.14.9'
     // The latest version of the Tuya Home:
-    implementation 'com.tuya.smart:tuyasmart:3.20.0'
+    implementation 'com.tuya.smart:tuyasmart:3.32.6'
 
 
     implementation 'com.tuya.smart:tuyasmart-centralcontrol:1.0.2'
